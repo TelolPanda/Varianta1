@@ -1,6 +1,6 @@
 package main;
 
-public class Conciedere 
+public class Concediere 
 {
 
 	public static void main(String[] args) 
