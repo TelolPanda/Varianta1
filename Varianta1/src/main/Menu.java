@@ -25,7 +25,9 @@ public class Menu
 	public void show()
 	{
 		for (int i=0; i<m.size(); i++)
-		System.out.println(m.get(i));
+		{
+			System.out.println(m.get(i));
+		}
 	}
 		
 	
