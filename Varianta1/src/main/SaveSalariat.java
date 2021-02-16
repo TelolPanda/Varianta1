@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class SaveSalariat
 {
 	
-		private static void savePersoana(String nume, String prenume, int ziNastere, String lunaNastere, int anNastere, String gender, long nrTel, String pozitie, String departament, int ziAngajare, String lunaAngajare, int anAngajare, long salariu) 
+		private static void saveSalariat(String nume, String prenume, int ziNastere, String lunaNastere, int anNastere, String gender, long nrTel, String pozitie, String departament, int ziAngajare, String lunaAngajare, int anAngajare, long salariu) 
 		{
 			System.out.println();
 			
