@@ -97,6 +97,6 @@ public class SaveSalariat
 			System.out.println("Care este salariul lui " + prenume + " " + nume);
 			long salariu;
 			salariu = scanner.nextLong();
-			savePersoana(nume, prenume, ziNastere, lunaNastere, anNastere, gender, nrTel, pozitie, departament, ziAngajare, lunaAngajare, anAngajare, salariu);
+			saveSalariat(nume, prenume, ziNastere, lunaNastere, anNastere, gender, nrTel, pozitie, departament, ziAngajare, lunaAngajare, anAngajare, salariu);
 		}
 }
