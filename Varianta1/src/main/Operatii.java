@@ -8,18 +8,28 @@ import java.util.Scanner;
  */
 public class Operatii 
 {	
+	static Person p1 = new Person();
 	static ArrayList<String> ar = new ArrayList();
 	static Scanner sc = new Scanner (System.in);
 	
-	public void angajeaza()
+	public static Person  angajeaza()
 	{
-		String employee;
-		System.out.println("Introduceti noul angajat/a");
-		employee = sc.nextLine();
-		ar.add(employee);
-		System.out.println(employee);
-		System.out.println(employee + " a fost angajat");
+		System.out.println("Introduceti numele");
+		p1.setFullName(sc.nextLine());
+		
+		System.out.println("Introduceti sexul");
+		p1.setGender(sc.nextLine());
+		
+		System.out.println("Introduceti data nasterii");
+		p1.setDateOfBirth(sc.nextLine());
+		
+		System.out.println("Introduceti numarul de telefon");
+		p1.setPhoneNumber(sc.nextLine());
+		
+		return p1;
+		
 	}
+	
 	public void concediaza()
 	{
 		String employee;
@@ -46,7 +56,7 @@ public class Operatii
 		System.out.println("Introduceti noua informatie");
 		informatieNoua = sc.nextLine();
 		//ar.add(informatieNoua);
-		System.out.println("Noua lista arata in felul urmator : " + ar.toString().replace(informatie, informatieNoua).replace("[", "").replace("]", ""));
+		
 		
 	}
 	public void show()
