@@ -2,7 +2,9 @@ package main;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/*
+ * created by Stefan
+ */
 public class Test 
 
 {
@@ -15,9 +17,9 @@ public class Test
 		sc = new Scanner( System.in );
 		ar = new ArrayList();
 		
-		MeniuTemporar m = new MeniuTemporar();
+		Menu m = new Menu();
 		
-		int ANGAJARE = m.add("Adaugati un angajat nou.");
+		int ANGAJARE = m.add("Adaugati numele noului angajat.");
 		int CONCEDIERE  = m.add("Concediati un angajat.");
 		int ACTUALIZARE  = m.add("Schimbati informatiile unui angajat.");
 		int AFISARE = m.add("Afisati lista cu angajati.");
