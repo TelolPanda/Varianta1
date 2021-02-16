@@ -1,6 +1,9 @@
 package main;
 
 public class Person
+/*
+ * created by Edy
+ */
 {
 	String fullName;
 	String dateOfBirth;
