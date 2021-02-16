@@ -43,11 +43,11 @@ public class Test
 			}
 			if(op == CONCEDIERE)
 			{
-				o.concediaza();
+			//	o.concediaza();
 			}
 			if(op == ACTUALIZARE)
 			{
-				o.actualizeaza();
+			//	o.actualizeaza();
 			}
 			if(op == AFISARE)
 			{
