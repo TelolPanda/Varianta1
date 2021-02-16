@@ -73,6 +73,15 @@ public class SaveSalariat
 			System.out.println("Care este numele superiorului lui " + prenume + " " + nume);
 			String superiorNume;
 			superiorNume = scanner.nextLine();
+			System.out.println("Care este ziua de nastere superiorului lui " + prenume + " " + nume);
+			int superiorZiNastere;
+			superiorZiNastere = scanner.nextInt();
+			System.out.println("Care este luna de nastere superiorului lui " + prenume + " " + nume);
+			int superiorLunaNastere;
+			superiorLunaNastere = scanner.nextInt();
+			System.out.println("Care este anul de nastere superiorului lui " + prenume + " " + nume);
+			int superiorAnNastere;
+			superiorAnNastere = scanner.nextInt();
 			System.out.println("Care este ziua angajarii lui " + prenume + " " + nume);
 			int ziAngajare;
 			ziAngajare = scanner.nextInt();
