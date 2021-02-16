@@ -4,7 +4,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
-
+/*
+ * Tudor Andrei Gioroc
+ * 2021-02-16
+ */
 public class SavePersoana 
 {
 	
