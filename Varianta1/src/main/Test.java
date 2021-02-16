@@ -19,7 +19,7 @@ public class Test
 		
 		Menu m = new Menu();
 		
-		int ANGAJARE = m.add("Adaugati numele noului angajat.");
+		int ANGAJARE = m.add("Adaugati noul angajat.");
 		int CONCEDIERE  = m.add("Concediati un angajat.");
 		int ACTUALIZARE  = m.add("Schimbati informatiile unui angajat.");
 		int AFISARE = m.add("Afisati lista cu angajati.");
