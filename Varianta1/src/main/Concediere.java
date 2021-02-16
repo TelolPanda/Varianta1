@@ -1,11 +1,10 @@
 package main;
 
-public class EntryPoint 
+public class Concediere 
 {
 
 	public static void main(String[] args) 
 	{
-		
 		
 
 	}
