@@ -3,7 +3,9 @@ package main;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
+/*
+ * created by Stefan
+ */
 public class Operatii 
 {	
 	static ArrayList<String> ar = new ArrayList();
