@@ -13,39 +13,40 @@ public class Employee
 	    int salary;
 	    
 	    
-		public String getFullName() 
+		
+	    public String getPosition() 
 	    {
-	        return position;
-	    }
-	    public void setFullName(String fullName) 
-	    {
-	        this.position = fullName;
-	    }
-	    public String getDateOfBirth() 
-	    {
-	        return department;
-	    }
-	    public void setDateOfBirth(String dateOfBirth) 
-	    {
-	        this.department = dateOfBirth;
-	    }
-	    public String getGender() 
-	    {
-	        return superior;
-	    }
-	    public void setGender(String gender) 
-	    {
-	        this.superior = gender;
-	    }
-	    public String getPhoneNumber() 
-	    {
-	        return employmentDate;
-	    }
-	    public void setPhoneNumber(String phoneNumber) 
-	    {
-	        this.employmentDate = phoneNumber;
-	    }
-	    public int getSalary() 
+			return position;
+		}
+		public void setPosition(String position) 
+		{
+			this.position = position;
+		}
+		public String getDepartment() 
+		{
+			return department;
+		}
+		public void setDepartment(String department) 
+		{
+			this.department = department;
+		}
+		public String getSuperior() 
+		{
+			return superior;
+		}
+		public void setSuperior(String superior) 
+		{
+			this.superior = superior;
+		}
+		public String getEmploymentDate() 
+		{
+			return employmentDate;
+		}
+		public void setEmploymentDate(String employmentDate) 
+		{
+			this.employmentDate = employmentDate;
+		}
+		public int getSalary() 
 	    {
 			return salary;
 		}

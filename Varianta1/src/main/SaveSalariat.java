@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class SaveSalariat
 {
 	
-		private static void savePersoana(String nume, String prenume, int ziNastere, String lunaNastere, int anNastere, String gender, long nrTel, String pozitie, String departament, int ziAngajare, String lunaAngajare, int anAngajare, long salariu) 
+		private static void saveSalariat(String nume, String prenume, int ziNastere, String lunaNastere, int anNastere, String gender, long nrTel, String pozitie, String departament, int ziAngajare, String lunaAngajare, int anAngajare, long salariu) 
 		{
 			System.out.println();
 			
@@ -97,6 +97,6 @@ public class SaveSalariat
 			System.out.println("Care este salariul lui " + prenume + " " + nume);
 			long salariu;
 			salariu = scanner.nextLong();
-			savePersoana(nume, prenume, ziNastere, lunaNastere, anNastere, gender, nrTel, pozitie, departament, ziAngajare, lunaAngajare, anAngajare, salariu);
+			saveSalariat(nume, prenume, ziNastere, lunaNastere, anNastere, gender, nrTel, pozitie, departament, ziAngajare, lunaAngajare, anAngajare, salariu);
 		}
 }
