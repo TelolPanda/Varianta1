@@ -43,7 +43,7 @@ public class Person
 		info+="Full names is :"+ fullName+ "\n";
 		info+="Date of birth is: "+dateOfBirth+" \n" ;
 		info+="Gender is : "+gender+ "\n";
-		info+="Phone Number is :" +phoneNumber+ " \n";
+		info+="Phone Number is :" +phoneNumber+ " \n\n";
 		return info;
 	}
 	
